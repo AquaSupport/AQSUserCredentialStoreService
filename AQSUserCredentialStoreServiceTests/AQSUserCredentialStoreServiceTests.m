@@ -9,7 +9,11 @@
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 
+#import "AQSUserCredentialStoreService.h"
+
 @interface AQSUserCredentialStoreServiceTests : XCTestCase
+
+@property AQSUserCredentialStoreService *service;
 
 @end
 
@@ -17,7 +21,8 @@
 
 - (void)setUp {
     [super setUp];
-    // Put setup code here. This method is called before the invocation of each test method in the class.
+    
+    _service = [AQSUserCredentialStoreService service];
 }
 
 - (void)tearDown {
@@ -25,16 +30,70 @@
     [super tearDown];
 }
 
-- (void)testExample {
-    // This is an example of a functional test case.
-    XCTAssert(YES, @"Pass");
+- (void)testItReturnsLowercaseHyphenStrippedUUIDForUserToken {
+    NSString *uuid = [_service userToken];
+    XCTAssertTrue([uuid isEqualToString:[uuid lowercaseString]]);
+    XCTAssertTrue([uuid isEqualToString:[uuid stringByReplacingOccurrencesOfString:@"-" withString:@""]]);
+    XCTAssertEqual(uuid.length, 32);
 }
 
-- (void)testPerformanceExample {
-    // This is an example of a performance test case.
-    [self measureBlock:^{
-        // Put the code you want to measure the time of here.
-    }];
+- (void)testItReturnsSameUserToken {
+    NSString *a = [_service userToken];
+    NSString *b = [_service userToken];
+    
+    XCTAssertTrue([a isEqualToString:b]);
+}
+
+- (void)testItReturns128LengthUserSecretKey {
+    NSString *secret = [_service userSecretKey];
+    
+    XCTAssertEqual(secret.length, 128);
+}
+
+- (void)testItReturnsSameUserSecretKey {
+    NSString *a = [_service userSecretKey];
+    NSString *b = [_service userSecretKey];
+    
+    XCTAssertTrue([a isEqualToString:b]);
+}
+
+- (void)testItReturnsSetUserToken {
+    [_service setUserToken:@"token"];
+    
+    XCTAssertTrue([[_service userToken] isEqualToString:@"token"]);
+}
+
+- (void)testItReturnsSetUserSecretKey {
+    [_service setUserSecretKey:@"key"];
+    
+    XCTAssertTrue([[_service userSecretKey] isEqualToString:@"key"]);
+}
+
+- (void)testItReturnsLowercasedHyphenStrippedDeviceToken {
+    NSString *uuid = [_service deviceToken];
+    XCTAssertTrue([uuid isEqualToString:[uuid lowercaseString]]);
+    XCTAssertTrue([uuid isEqualToString:[uuid stringByReplacingOccurrencesOfString:@"-" withString:@""]]);
+    XCTAssertEqual(uuid.length, 32);
+}
+
+- (void)testItReturnsSameDeviceToken {
+    NSString *a = [_service deviceToken];
+    NSString *b = [_service deviceToken];
+    
+    XCTAssertTrue([a isEqualToString:b]);
+}
+
+- (void)testItReturns128LengthDeviceSecretKey {
+    NSString *key = [_service deviceSecretKey];
+    
+    XCTAssertEqual(key.length, 128);
+}
+
+- (void)testItReturnsSameDeviceSecretKey {
+    NSString *a = [_service deviceSecretKey];
+    NSString *b = [_service deviceSecretKey];
+    
+    XCTAssertTrue([a isEqualToString:b]);
 }
 
 @end

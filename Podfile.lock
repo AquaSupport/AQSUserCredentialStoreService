@@ -1,0 +1,16 @@
+PODS:
+  - AQMSecureRandom (0.0.2)
+  - LUKeychainAccess (1.2.3)
+  - OCMock (3.1.1)
+
+DEPENDENCIES:
+  - AQMSecureRandom
+  - LUKeychainAccess
+  - OCMock
+
+SPEC CHECKSUMS:
+  AQMSecureRandom: 3a713255d394a9cc4a9121395fec62090cadf92a
+  LUKeychainAccess: 8d45b6c894c0d808786b1740c057b5e776313d88
+  OCMock: f6cb8c162ab9d5620dddf411282c7b2c0ee78854
+
+COCOAPODS: 0.34.4

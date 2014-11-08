@@ -2,7 +2,7 @@ platform :ios, '7.0'
 
 target "AQSUserCredentialStoreService" do
   pod "AQMSecureRandom"
-  pod "LUKeyChainAccess"
+  pod "LUKeychainAccess"
 end
 
 target "AQSUserCredentialStoreServiceTests" do
