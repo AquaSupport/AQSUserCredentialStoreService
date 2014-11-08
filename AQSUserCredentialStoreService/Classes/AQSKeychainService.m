@@ -40,4 +40,10 @@
     return [self.access stringForKey:key];
 }
 
+# pragma mark - Deleting All
+
+- (void)deleteAll {
+    [self.access deleteAll];
+}
+
 @end

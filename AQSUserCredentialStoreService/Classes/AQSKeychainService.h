@@ -45,4 +45,12 @@
  */
 - (NSString *)stringForKey:(NSString *)key;
 
+# pragma mark - Deleting All Data
+/** @name Deleting All Data */
+
+/**
+ *  Delete all values.
+ */
+- (void)deleteAll;
+
 @end

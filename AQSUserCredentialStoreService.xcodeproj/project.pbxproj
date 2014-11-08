@@ -18,6 +18,9 @@
 		D42B184B1A0EA0B400A64B1A /* AQSUserCredentialStoreServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D42B184A1A0EA0B400A64B1A /* AQSUserCredentialStoreServiceTests.m */; };
 		D42B18571A0EA1C700A64B1A /* AQSUserCredentialStoreService.m in Sources */ = {isa = PBXBuildFile; fileRef = D42B18561A0EA1C700A64B1A /* AQSUserCredentialStoreService.m */; };
 		D42B185A1A0EA30800A64B1A /* AQSKeychainService.m in Sources */ = {isa = PBXBuildFile; fileRef = D42B18591A0EA30800A64B1A /* AQSKeychainService.m */; };
+		D42B185F1A0EA56400A64B1A /* AQSKeychainServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D42B185E1A0EA56400A64B1A /* AQSKeychainServiceTests.m */; };
+		D42B18621A0EA85900A64B1A /* NSString+RandomUUID.m in Sources */ = {isa = PBXBuildFile; fileRef = D42B18611A0EA85900A64B1A /* NSString+RandomUUID.m */; };
+		D42B18641A0EA8B100A64B1A /* NSStringRandomUUID.m in Sources */ = {isa = PBXBuildFile; fileRef = D42B18631A0EA8B100A64B1A /* NSStringRandomUUID.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +57,10 @@
 		D42B18561A0EA1C700A64B1A /* AQSUserCredentialStoreService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AQSUserCredentialStoreService.m; sourceTree = "<group>"; };
 		D42B18581A0EA30800A64B1A /* AQSKeychainService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AQSKeychainService.h; sourceTree = "<group>"; };
 		D42B18591A0EA30800A64B1A /* AQSKeychainService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AQSKeychainService.m; sourceTree = "<group>"; };
+		D42B185E1A0EA56400A64B1A /* AQSKeychainServiceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AQSKeychainServiceTests.m; sourceTree = "<group>"; };
+		D42B18601A0EA85900A64B1A /* NSString+RandomUUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+RandomUUID.h"; sourceTree = "<group>"; };
+		D42B18611A0EA85900A64B1A /* NSString+RandomUUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+RandomUUID.m"; sourceTree = "<group>"; };
+		D42B18631A0EA8B100A64B1A /* NSStringRandomUUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStringRandomUUID.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +152,8 @@
 			isa = PBXGroup;
 			children = (
 				D42B184A1A0EA0B400A64B1A /* AQSUserCredentialStoreServiceTests.m */,
+				D42B185E1A0EA56400A64B1A /* AQSKeychainServiceTests.m */,
+				D42B18631A0EA8B100A64B1A /* NSStringRandomUUID.m */,
 				D42B18481A0EA0B400A64B1A /* Supporting Files */,
 			);
 			path = AQSUserCredentialStoreServiceTests;
@@ -165,6 +174,8 @@
 				D42B18561A0EA1C700A64B1A /* AQSUserCredentialStoreService.m */,
 				D42B18581A0EA30800A64B1A /* AQSKeychainService.h */,
 				D42B18591A0EA30800A64B1A /* AQSKeychainService.m */,
+				D42B18601A0EA85900A64B1A /* NSString+RandomUUID.h */,
+				D42B18611A0EA85900A64B1A /* NSString+RandomUUID.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -339,6 +350,7 @@
 				D42B18371A0EA0B300A64B1A /* ViewController.m in Sources */,
 				D42B18341A0EA0B300A64B1A /* AppDelegate.m in Sources */,
 				D42B18311A0EA0B300A64B1A /* main.m in Sources */,
+				D42B18621A0EA85900A64B1A /* NSString+RandomUUID.m in Sources */,
 				D42B185A1A0EA30800A64B1A /* AQSKeychainService.m in Sources */,
 				D42B18571A0EA1C700A64B1A /* AQSUserCredentialStoreService.m in Sources */,
 			);
@@ -349,6 +361,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D42B184B1A0EA0B400A64B1A /* AQSUserCredentialStoreServiceTests.m in Sources */,
+				D42B18641A0EA8B100A64B1A /* NSStringRandomUUID.m in Sources */,
+				D42B185F1A0EA56400A64B1A /* AQSKeychainServiceTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
