@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		138773A177CD9F0E290035F5 /* libPods-AQSUserCredentialStoreServiceTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C8E85A6B65451C2B5AF7681 /* libPods-AQSUserCredentialStoreServiceTests.a */; };
+		95C6EAD04827A3D2FD8DC751 /* libPods-AQSUserCredentialStoreService.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7537BCDF4101220B27501373 /* libPods-AQSUserCredentialStoreService.a */; };
 		D42B18311A0EA0B300A64B1A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D42B18301A0EA0B300A64B1A /* main.m */; };
 		D42B18341A0EA0B300A64B1A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D42B18331A0EA0B300A64B1A /* AppDelegate.m */; };
 		D42B18371A0EA0B300A64B1A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D42B18361A0EA0B300A64B1A /* ViewController.m */; };
@@ -14,6 +16,8 @@
 		D42B183C1A0EA0B300A64B1A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D42B183B1A0EA0B300A64B1A /* Images.xcassets */; };
 		D42B183F1A0EA0B300A64B1A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D42B183D1A0EA0B300A64B1A /* LaunchScreen.xib */; };
 		D42B184B1A0EA0B400A64B1A /* AQSUserCredentialStoreServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D42B184A1A0EA0B400A64B1A /* AQSUserCredentialStoreServiceTests.m */; };
+		D42B18571A0EA1C700A64B1A /* AQSUserCredentialStoreService.m in Sources */ = {isa = PBXBuildFile; fileRef = D42B18561A0EA1C700A64B1A /* AQSUserCredentialStoreService.m */; };
+		D42B185A1A0EA30800A64B1A /* AQSKeychainService.m in Sources */ = {isa = PBXBuildFile; fileRef = D42B18591A0EA30800A64B1A /* AQSKeychainService.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +31,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2DB881BDE83517DB7E08EA0F /* Pods-AQSUserCredentialStoreServiceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AQSUserCredentialStoreServiceTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AQSUserCredentialStoreServiceTests/Pods-AQSUserCredentialStoreServiceTests.debug.xcconfig"; sourceTree = "<group>"; };
+		427F4E655788DE4A9E3915A1 /* Pods-AQSUserCredentialStoreService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AQSUserCredentialStoreService.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AQSUserCredentialStoreService/Pods-AQSUserCredentialStoreService.debug.xcconfig"; sourceTree = "<group>"; };
+		5C8E85A6B65451C2B5AF7681 /* libPods-AQSUserCredentialStoreServiceTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AQSUserCredentialStoreServiceTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7537BCDF4101220B27501373 /* libPods-AQSUserCredentialStoreService.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AQSUserCredentialStoreService.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A99CFE2B5979F876AB9C1E42 /* Pods-AQSUserCredentialStoreServiceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AQSUserCredentialStoreServiceTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AQSUserCredentialStoreServiceTests/Pods-AQSUserCredentialStoreServiceTests.release.xcconfig"; sourceTree = "<group>"; };
+		AD8A950C54AC0018AB5F9812 /* Pods-AQSUserCredentialStoreService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AQSUserCredentialStoreService.release.xcconfig"; path = "Pods/Target Support Files/Pods-AQSUserCredentialStoreService/Pods-AQSUserCredentialStoreService.release.xcconfig"; sourceTree = "<group>"; };
 		D42B182B1A0EA0B300A64B1A /* AQSUserCredentialStoreService.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AQSUserCredentialStoreService.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D42B182F1A0EA0B300A64B1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D42B18301A0EA0B300A64B1A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +50,10 @@
 		D42B18441A0EA0B400A64B1A /* AQSUserCredentialStoreServiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AQSUserCredentialStoreServiceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D42B18491A0EA0B400A64B1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D42B184A1A0EA0B400A64B1A /* AQSUserCredentialStoreServiceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AQSUserCredentialStoreServiceTests.m; sourceTree = "<group>"; };
+		D42B18551A0EA1C700A64B1A /* AQSUserCredentialStoreService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AQSUserCredentialStoreService.h; sourceTree = "<group>"; };
+		D42B18561A0EA1C700A64B1A /* AQSUserCredentialStoreService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AQSUserCredentialStoreService.m; sourceTree = "<group>"; };
+		D42B18581A0EA30800A64B1A /* AQSKeychainService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AQSKeychainService.h; sourceTree = "<group>"; };
+		D42B18591A0EA30800A64B1A /* AQSKeychainService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AQSKeychainService.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95C6EAD04827A3D2FD8DC751 /* libPods-AQSUserCredentialStoreService.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,18 +69,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				138773A177CD9F0E290035F5 /* libPods-AQSUserCredentialStoreServiceTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		42111B4C81D50D5D614D3ED0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7537BCDF4101220B27501373 /* libPods-AQSUserCredentialStoreService.a */,
+				5C8E85A6B65451C2B5AF7681 /* libPods-AQSUserCredentialStoreServiceTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B17A238458A38FCEC9C03C5A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				427F4E655788DE4A9E3915A1 /* Pods-AQSUserCredentialStoreService.debug.xcconfig */,
+				AD8A950C54AC0018AB5F9812 /* Pods-AQSUserCredentialStoreService.release.xcconfig */,
+				2DB881BDE83517DB7E08EA0F /* Pods-AQSUserCredentialStoreServiceTests.debug.xcconfig */,
+				A99CFE2B5979F876AB9C1E42 /* Pods-AQSUserCredentialStoreServiceTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D42B18221A0EA0B300A64B1A = {
 			isa = PBXGroup;
 			children = (
 				D42B182D1A0EA0B300A64B1A /* AQSUserCredentialStoreService */,
 				D42B18471A0EA0B400A64B1A /* AQSUserCredentialStoreServiceTests */,
 				D42B182C1A0EA0B300A64B1A /* Products */,
+				B17A238458A38FCEC9C03C5A /* Pods */,
+				42111B4C81D50D5D614D3ED0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +119,7 @@
 		D42B182D1A0EA0B300A64B1A /* AQSUserCredentialStoreService */ = {
 			isa = PBXGroup;
 			children = (
+				D42B18541A0EA1BE00A64B1A /* Classes */,
 				D42B18321A0EA0B300A64B1A /* AppDelegate.h */,
 				D42B18331A0EA0B300A64B1A /* AppDelegate.m */,
 				D42B18351A0EA0B300A64B1A /* ViewController.h */,
@@ -119,6 +158,17 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		D42B18541A0EA1BE00A64B1A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D42B18551A0EA1C700A64B1A /* AQSUserCredentialStoreService.h */,
+				D42B18561A0EA1C700A64B1A /* AQSUserCredentialStoreService.m */,
+				D42B18581A0EA30800A64B1A /* AQSKeychainService.h */,
+				D42B18591A0EA30800A64B1A /* AQSKeychainService.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D42B184E1A0EA0B400A64B1A /* Build configuration list for PBXNativeTarget "AQSUserCredentialStoreService" */;
 			buildPhases = (
+				8344E7AA580DC3731625B068 /* Check Pods Manifest.lock */,
 				D42B18271A0EA0B300A64B1A /* Sources */,
 				D42B18281A0EA0B300A64B1A /* Frameworks */,
 				D42B18291A0EA0B300A64B1A /* Resources */,
+				A10C021BFA1AD01CA8484C6B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -143,9 +195,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D42B18511A0EA0B400A64B1A /* Build configuration list for PBXNativeTarget "AQSUserCredentialStoreServiceTests" */;
 			buildPhases = (
+				220BE10577A6822E250AE8F5 /* Check Pods Manifest.lock */,
 				D42B18401A0EA0B400A64B1A /* Sources */,
 				D42B18411A0EA0B400A64B1A /* Frameworks */,
 				D42B18421A0EA0B400A64B1A /* Resources */,
+				E4DE910128C8ECBF5217D77D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,6 +268,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		220BE10577A6822E250AE8F5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8344E7AA580DC3731625B068 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A10C021BFA1AD01CA8484C6B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AQSUserCredentialStoreService/Pods-AQSUserCredentialStoreService-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4DE910128C8ECBF5217D77D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AQSUserCredentialStoreServiceTests/Pods-AQSUserCredentialStoreServiceTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D42B18271A0EA0B300A64B1A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -222,6 +339,8 @@
 				D42B18371A0EA0B300A64B1A /* ViewController.m in Sources */,
 				D42B18341A0EA0B300A64B1A /* AppDelegate.m in Sources */,
 				D42B18311A0EA0B300A64B1A /* main.m in Sources */,
+				D42B185A1A0EA30800A64B1A /* AQSKeychainService.m in Sources */,
+				D42B18571A0EA1C700A64B1A /* AQSUserCredentialStoreService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,9 +460,11 @@
 		};
 		D42B184F1A0EA0B400A64B1A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 427F4E655788DE4A9E3915A1 /* Pods-AQSUserCredentialStoreService.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AQSUserCredentialStoreService/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -351,9 +472,11 @@
 		};
 		D42B18501A0EA0B400A64B1A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD8A950C54AC0018AB5F9812 /* Pods-AQSUserCredentialStoreService.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AQSUserCredentialStoreService/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -361,6 +484,7 @@
 		};
 		D42B18521A0EA0B400A64B1A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DB881BDE83517DB7E08EA0F /* Pods-AQSUserCredentialStoreServiceTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -380,6 +504,7 @@
 		};
 		D42B18531A0EA0B400A64B1A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A99CFE2B5979F876AB9C1E42 /* Pods-AQSUserCredentialStoreServiceTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -412,6 +537,7 @@
 				D42B18501A0EA0B400A64B1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D42B18511A0EA0B400A64B1A /* Build configuration list for PBXNativeTarget "AQSUserCredentialStoreServiceTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +546,7 @@
 				D42B18531A0EA0B400A64B1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

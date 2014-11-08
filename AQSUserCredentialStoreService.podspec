@@ -11,5 +11,5 @@ Pod::Spec.new do |s|
   s.platform = "ios", '7.0'
 
   s.dependency "AQMSecureRandom"
-  s.dependency "LUKeyChainAccess"
+  s.dependency "LUKeychainAccess"
 end
