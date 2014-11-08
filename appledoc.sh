@@ -9,7 +9,7 @@ appledoc --prefix-merged-sections \
  --no-create-docset\
  --index-desc "README.md"\
  --company-id "org.openaquamarine"\
- --project-name="AQSyncableObjectCoordinator"\
+ --project-name="AQSUserCredentialStoreService"\
  --project-company "Aquamarine"\
- --output "~/dropbox/Public/___doc___AQSyncableObjectCoordinator"\
- AQSyncableObjectCoordinator/Classes
+ --output "~/dropbox/Public/___doc___AQSUserCredentialStoreService"\
+ AQSUserCredentialStoreService/Classes
